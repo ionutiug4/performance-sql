@@ -1,6 +1,6 @@
 services:
   postgres:
-    container_name: postgres
+    container_name: py-postgres
     image: postgres:16
     environment:
       - POSTGRES_USER=postgres
